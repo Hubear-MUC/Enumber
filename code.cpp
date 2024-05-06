@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-int s,e,i;
-main(int v, char** c)
+int a=0,b=0,i=0;
+int main(int n, char** p)
 {
-s = atoi(c[1]);
-e = atoi(c[2]);
-for(i=s;i<=e;++i)
- {
- printf ("%d.\n\n", i);
- }
+a=atoi(p[1]);b=atoi(p[2]);
+for (i = a; i <= b; ++i)
+{
+printf ("%d.\n\n", i);
+}
 }
